@@ -14,7 +14,7 @@
         const tooltip = $link.data('tooltip');
 
         if (!/^<img/.test(tooltip)) {
-            return false;
+            return true;
         }
 
         const $parent = $link.parent();
