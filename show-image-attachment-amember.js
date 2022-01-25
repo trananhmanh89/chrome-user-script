@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.joomlart.com/member/helpdesk/admin/ticket/*
+// @match        https://www.joomlart.com/*/ticket/*
 // @grant        none
 // ==/UserScript==
 
