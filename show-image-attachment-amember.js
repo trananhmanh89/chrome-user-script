@@ -21,6 +21,9 @@
 
         $parent.css('margin-top', '10px');
         $parent.append(`<div style="margin-top: 10px;">${tooltip}</div>`)
-        $parent.find('img').attr('width', false).attr('loading', 'lazy').css('max-width', '100%');
+        const $img = $parent.find('img');
+        $img.attr('width', false)
+            .attr('loading', 'lazy')
+            .css({'max-width': '100%', 'box-shadow': 'rgba(0, 0, 0, 0.24) 0px 3px 8px' });
     })
 })(window.jQuery);
