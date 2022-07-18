@@ -10,12 +10,17 @@
 // @run-at       document-start
 // @antifeature  tracking
 // ==/UserScript==
-
 window.addEventListener('DOMContentLoaded', async () => {
     const css = `
     <style>
         :root {
             --font-primary: Segoe UI Regular,sans-serif;
+        }
+        .nameTag-H6kSJ0 {
+            line-height: 1.5;
+        }
+        .discriminator-WV5K5s {
+            line-height: 23px;
         }
     </style>
     `;
