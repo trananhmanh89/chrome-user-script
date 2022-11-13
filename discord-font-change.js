@@ -5,6 +5,7 @@
 // @description  như tên
 // @author       You
 // @match        https://discord.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=discord.com
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-start
