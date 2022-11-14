@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         hide Facebook feed
+// @name         Hide Facebook feed
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
