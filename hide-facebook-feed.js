@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Hide Facebook feed
+// @name         hide Facebook feed
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -8,12 +8,11 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=facebook.com
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @run-at       document-start
+// @run-at       document-body
 // @antifeature  tracking
 // ==/UserScript==
 
-window.addEventListener('DOMContentLoaded', async () => {
-    const css = `
+const css = `
     <style>
 .x1hc1fzr.x1unhpq9.x6o7n8i {
     display: none;
@@ -23,6 +22,5 @@ window.addEventListener('DOMContentLoaded', async () => {
     display: none;
 }
     </style>
-    `;
-    document.head.insertAdjacentHTML("beforeend", css)
-})
+`;
+document.head.insertAdjacentHTML("beforeend", css)
