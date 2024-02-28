@@ -19,18 +19,28 @@ const css = `
     --right-column-width: 20vw;
     --messages-line-height: 1.7;
   }
-
   .night {
     --primary-text-color: #ddd !important;
     --message-background-color: #2b2d31 !important;
   }
-
   .bubbles-group {
     margin-bottom: 1rem;
   }
-
   .bubbles-inner:not(.is-broadcast) .message, .bubbles-inner:not(.is-broadcast) {
     max-width: 1000px;
+  }
+  .bubble .emoji-image {
+    width: 2rem;
+    height: 2rem;
+  }
+  .stacked-avatars-avatar-container {
+    display: none;
+  }
+  .bubble.photo .bubble-content {
+    width: 100%;
+  }
+  .webpage {
+    display: none;
   }
 
 </style>
